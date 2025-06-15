@@ -29,30 +29,28 @@
 
 ## Instalação
 
-1. Clone o repositório  
+### 1. Clone o repositório
+
 ```bash
 git clone https://github.com/seu-usuario/codemyAI.git
-Entre na pasta do projeto
-
+2. Entre na pasta do projeto
 bash
 Copiar
 Editar
 cd codemyAI
-Instale as dependências do front-end
-
+3. Instale as dependências do front-end
 bash
 Copiar
 Editar
 cd frontend
 npm install
-Instale as dependências do back-end
-
+4. Instale as dependências do back-end
 bash
 Copiar
 Editar
 cd ../backend
 npm install
-Configuração da chave da OpenAI
+5. Configuração da chave da OpenAI
 Para o chatbot funcionar, você precisa ter uma chave da API da OpenAI.
 
 Crie um arquivo .env dentro da pasta backend/
@@ -63,35 +61,33 @@ env
 Copiar
 Editar
 OPENAI_API_KEY=sua_chave_aqui
-Atenção
+Atenção:
 Nunca envie seu arquivo .env para o GitHub!
-
 Adicione .env no arquivo .gitignore para proteger suas credenciais.
-
 Seu código acessa a chave via process.env.OPENAI_API_KEY no backend.
-
 Em ambientes de produção (Heroku, Vercel etc), configure as variáveis de ambiente pela plataforma, sem subir o .env.
 
 Uso
-Inicie o servidor back-end
-
+1. Inicie o servidor back-end
 bash
 Copiar
 Editar
 npm start
-Inicie o front-end
-
+2. Inicie o front-end
 bash
 Copiar
 Editar
 cd ../frontend
 npm start
+3. Acesse no navegador
 Abra o navegador em http://localhost:3000 para usar o chatbot.
 
 Contribuição
-Contribuições são bem-vindas! Abra uma issue ou envie um pull request para melhorias e correções.
+Contribuições são bem-vindas!
+Abra uma issue ou envie um pull request para melhorias e correções.
 
 Licença
 Este projeto está licenciado sob a licença MIT.
 
-Desenvolvido por Gerson Fernandes
+Desenvolvido por
+Gerson Fernandes
